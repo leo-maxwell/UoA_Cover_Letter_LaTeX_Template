@@ -1,0 +1,98 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+
+\newlength{\spacing}
+\setlength{\spacing}{0.5cm}
+
+% Geometry setup
+\geometry{top=2cm, bottom=2cm, left=2cm, right=2cm}
+
+\begin{document}
+
+% Top banner
+\noindent
+\begin{minipage}[c]{0.15\textwidth}
+    \includegraphics[width=\textwidth]{uoa_logo.png} % Replace 'logo.png' with your logo file
+\end{minipage}%
+\begin{minipage}[c]{0.9\textwidth}
+    \hspace{1em} % Adjust space to align vertically
+    \begin{tabular}{@{}l}
+        \textbf{Name:} John Doe \\
+        \textbf{Address:} 123 Main Street, City, Country \\
+        \textbf{Mobile:} +123 456 789 \\
+        \textbf{Email:} johndoe@example.com \\
+    \end{tabular}
+\end{minipage}
+
+\vspace{1ex}
+\noindent\color{black}\rule{\textwidth}{1.5pt}
+
+% Employer's details
+\vspace{1em} % Space between banner and employer details
+\noindent
+\begin{tabular}{@{}l}
+    Employer's First Name \\[1.2ex]
+    Employer's Job Title \\[1.2ex]
+    Company Name \\[1.2ex]
+    Company Address \\[1.2ex]
+\end{tabular}
+
+% Date
+\vspace{\spacing} % Space between employer details and date
+\noindent
+(Date that you mail the letter)
+
+% Greeting
+\vspace{\spacing} % Same spacing as between employer details
+\noindent
+Dear (Title and Surname – e.g. Mr Smith or Ms Brown),
+
+% Heading
+\vspace{\spacing} % Space between the greeting and the heading
+\begin{center}
+    \textbf{RE: [Job Title/Reference Number]}
+\end{center}
+
+% Paragraphs
+\vspace{\spacing} % Space before the first paragraph
+\noindent
+\textbf{Introduction Paragraph:} State the purpose of the letter, i.e. what position you are applying for, where
+you saw the position advertised and what you are including in your application.
+
+\vspace{\spacing} % Equal spacing between paragraphs
+\noindent
+\textbf{Paragraph Two:} What \textbf{Skills, Experience and Knowledge} have you gained from your \textbf{Education} and
+how do these attributes make you suitable for this job?
+
+\vspace{\spacing}
+\noindent
+\textbf{Paragraph Three:} What \textbf{Skills, Experience and Knowledge} have you gained from your \textbf{Previous
+Employment / Volunteer Work / Extra Curricular Activities} and how do these attributes make you
+suitable for this job?
+
+\vspace{\spacing}
+\noindent
+\textbf{Paragraph Four:} You may continue with job specific information and describe how you can use your
+experiences and background to meet employers' requirements. This is also the place to demonstrate
+your knowledge of the company and tell them why you are applying for the role.
+
+\vspace{\spacing}
+\noindent
+\textbf{Paragraph Five:} Thank you and call to action – What do you want to happen next?
+
+% Closing line
+\vspace{\spacing} % Same spacing as between paragraphs
+\noindent
+Yours sincerely,
+
+% Vertical fill for signature if this letter is meant to be printed and delivered in person
+\vfill
+
+% Name at the end
+\noindent
+John Doe
+
+\end{document}
